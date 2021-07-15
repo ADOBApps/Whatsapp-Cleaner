@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView
+		android:id="@+id/tv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="ADOB Apps, compile the future. 
+El boton borrar eliminara las notas de voz y los 
+archivos sent(enviados) de los cuales ni notara 
+su ausencia. Presione multiples veces borrar
+y espere hasta que en lugar de este texto diga:
+Excitosamente borrado o Directorios borrados"
+    />
+	<Button 
+		android:id="@+id/btnESD"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Probar"
+	/>
+<!--
+	<Button 
+		android:id="@+id/btnBack"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Atras"
+	/>
+	<Button 
+		android:id="@+id/btnExit"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Salir"
+	/>
+-->
+	<Button 
+		android:id="@+id/btnDelete"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Borrar"
+	/>
+</LinearLayout>
+
